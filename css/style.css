@@ -1,0 +1,69 @@
+:root{
+    --mark-blue: #45abea;
+    --mark-purple: #9c72e4;
+    --mark-orange: #f29e33;
+    --mark-acqua: #64c0a9;
+    --mark-pink: #d863a1;
+    --mark-green: #b0c926;
+    --background: #f6f8f9;
+}
+
+
+* {
+    font-family: roboto;
+}
+
+.header {
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+
+#logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+#logo_title {
+    font-size: 2.5em;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.container {
+    padding: 3em 11em;
+    background-color: var(--background);
+}
+
+.pxy-3-11{
+    padding: 1em 3em;
+}
+
+/* buttons */
+
+.buttons {
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em 3em;
+    border-bottom: 3px solid var(--background);
+}
+
+#btn1 {
+    color: white;
+    background-color: var(--mark-blue);
+    border-radius: 5px;
+    border-color: var(--mark-blue);
+}
+
+#btn2{
+    color: #b3b3b3;
+    background-color: white;
+    border-radius: 5px;
+    border-color: #c0c0c0;
+}
+
+.todolist{
+    background-color: white;
+    border-radius: 5px;
+
+}
