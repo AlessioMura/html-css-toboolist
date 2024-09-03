@@ -6,6 +6,8 @@
     --mark-pink: #d863a1;
     --mark-green: #b0c926;
     --background: #f6f8f9;
+    --checks: #66c1aa;
+    --cross: #eb5852;
 }
 
 
@@ -13,6 +15,7 @@
     font-family: roboto;
 }
 
+/* #region-header */
 .header {
     padding-left: 1em;
     padding-bottom: 2em;
@@ -29,18 +32,25 @@
     vertical-align: middle;
     margin: 0;
 }
+/* #endregion-header */
 
+/* #region-utility */
 .container {
     padding: 3em 11em;
     background-color: var(--background);
 }
 
+.todolist{
+    background-color: white;
+    border-radius: 5px;
+}
+
 .pxy-3-11{
     padding: 1em 3em;
 }
+/* #endregion-utility */
 
-/* buttons */
-
+/* #region-buttons */
 .buttons {
     background-color: white;
     border-radius: 5px;
@@ -61,9 +71,88 @@
     border-radius: 5px;
     border-color: #c0c0c0;
 }
+/* #endregion-buttons */
 
-.todolist{
-    background-color: white;
-    border-radius: 5px;
-
+/* #region-checks */
+.checks{
+    color: var(--checks);
+    border: 1px solid var(--checks);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    line-height: 1;
 }
+
+.cross{
+    color: var(--cross);
+    border: 1px solid var(--cross);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    line-height: 1;
+}
+/* #endregion-checks */
+
+/* #region-marks */
+.mark-blue{
+    font-size: 7px;
+    color: white;
+    background-color: var(--mark-blue);
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.mark-purple{
+    font-size: 7px;
+    color: white;
+    background-color: var(--mark-purple);
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.mark-acqua{
+    font-size: 7px;
+    color: white;
+    background-color: var(--mark-acqua);
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.mark-orange{
+    font-size: 7px;
+    color: white;
+    background-color: var(--mark-orange);
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.mark-pink{
+    font-size: 7px;
+    color: white;
+    background-color: var(--mark-pink);
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.mark-green{
+    font-size: 7px;
+    color: white;
+    background-color: var(--mark-green);
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+/* #endregion-marks */
